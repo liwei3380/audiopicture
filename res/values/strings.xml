@@ -9,5 +9,7 @@
     <string name="works_show">作品秀</string>
     <string name="new_works">新建作品</string>
     <string name="system_setting">系统信息</string>
+    <string name="title_back">返回</string>
+    <string name="title_text">龙泉动画DIY</string>
 
 </resources>
