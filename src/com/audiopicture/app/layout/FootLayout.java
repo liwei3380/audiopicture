@@ -16,19 +16,19 @@ import android.widget.Toast;
 
 /**
  * @author zlw
- * ×Ô¶¨Òåµ×²¿Ñ¡ÔñÀ¸
+ * è‡ªå®šä¹‰åº•éƒ¨é€‰æ‹©æ 
  */
 public class FootLayout extends LinearLayout {
 	public FootLayout(Context context, AttributeSet attrs){
 		super(context, attrs);
 		LayoutInflater.from(context).inflate(R.layout.foot, this);
-		//×÷Æ·Õ¹Ê¾
+		//ä½œå“å±•ç¤º
 		Button footShow = (Button) findViewById(R.id.works_show);
-		//ĞÂ½¨×÷Æ·
+		//æ–°å»ºä½œå“
 		Button footNew = (Button) findViewById(R.id.new_works);
-		//ÏµÍ³ÉèÖÃ
+		//ç³»ç»Ÿè®¾ç½®
 		Button footSetting = (Button) findViewById(R.id.system_setting);
-		//µã»÷×÷Æ·Õ¹Ê¾
+		//ç‚¹å‡»ä½œå“å±•ç¤º
 		footShow.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -38,7 +38,7 @@ public class FootLayout extends LinearLayout {
 				getContext().startActivity(intent);
 			}
 		});
-		//µã»÷ĞÂ½¨×÷Æ·
+		//ç‚¹å‡»æ–°å»ºä½œå“
 		footNew.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -48,7 +48,7 @@ public class FootLayout extends LinearLayout {
 				getContext().startActivity(intent);
 			}
 		});
-		//µã»÷ÏµÍ³ÉèÖÃ
+		//ç‚¹å‡»ç³»ç»Ÿè®¾ç½®
 		footSetting.setOnClickListener(new OnClickListener() {
 			
 			@Override

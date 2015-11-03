@@ -12,14 +12,14 @@ import android.widget.LinearLayout;
 
 /**
  * @author zlw
- * 菱땍屢땅꼬朞嶝으
- * gbk
+ * 顶部
+ * 
  */
 public class TitleLayout extends LinearLayout {
 	public TitleLayout(Context context, AttributeSet attrs){
 		super(context, attrs);
 		LayoutInflater.from(context).inflate(R.layout.title, this);
-		//럿쀼객큐
+		//返回
 		Button titleBack = (Button) findViewById(R.id.title_back);
 		titleBack.setOnClickListener(new OnClickListener() {
 			
